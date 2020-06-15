@@ -27,11 +27,6 @@ nav ul li a
 {
 	box-shadow: 0px 0px 3px 0px #000;
 }
-
-
-
-
-
 /*============ Service Features Style Start ============*/
 .service-heading-block{
 	display:block;
@@ -103,6 +98,15 @@ nav ul li a
 }
 .color-info {
   color: #46b8da;
+}
+.color-warning {
+  color: #eea236;
+}
+.color-success {
+  color:#5cb85c;
+}
+.color-danger {
+  color:#d9534f;
 }
 .btn-custom{
   border: medium none;
@@ -262,6 +266,29 @@ footer p
 /*============ footer section style End ============*/
 @media only screen and (max-width: 768px)
 {
+  .feature-block 
+  {
+    padding: 10px;
+    margin-bottom: 10px; 
+    transition:all ease .5s
+  }
+  .feature-block h4 
+  {
+    font-size: 16px;
+    margin: 1rem 0 0rem;
+  }
+  .feature-block p 
+  {
+    font-size: 14px;
+    margin:0px;
+    margin: 0rem 0 1rem;
+  }
+  .btn-custom
+  {
+    font-size: 14px;
+    margin: 0px 0px;
+    padding: 8px 10px;
+  }
    #service img
   {
     width:100%;
@@ -323,6 +350,23 @@ footer p
 }
 @media only screen and (max-width: 400px)
 {
+  .feature-block h4 
+  {
+    font-size: 14px;
+    margin: 1rem 0 0rem;
+  }
+  .feature-block p 
+  {
+    font-size: 12px;
+    margin:0px;
+    margin: 0rem 0 1rem;
+  }
+  .btn-custom
+  {
+    font-size: 14px;
+    margin: 0px 0px;
+    padding: 8px 10px;
+  }
    #service img
   {
     width:100%;
